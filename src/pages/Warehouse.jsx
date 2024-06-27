@@ -21,6 +21,8 @@ const Warehouse = () => {
     fetchWarehouses();
   }, []);
 
+  console.log("HERE!", warehouses);
+
   return (
     <div className="App">
       <h1>Warehouses</h1>
